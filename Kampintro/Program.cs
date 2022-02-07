@@ -21,6 +21,7 @@ namespace KampIntro
             else if (dolarDun<dolarBugun)
             {
                 Console.WriteLine("Artış Butonu");
+                Console.WriteLine("selam");
             }
             else
             {
