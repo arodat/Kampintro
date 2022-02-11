@@ -25,9 +25,21 @@ namespace OOP3
 
             basvuruManager.BasvuruYap(new EsnafKrediManager(), new SmsLoggerService());
 
+            Console.WriteLine("---------------------------");
 
+            //Ternary operation
+            int x = 10, y = 20;
+            var result = x > y ? "Ternary - x büyük" : "Ternary - y büyük";
+            Console.WriteLine(result);
 
             Console.WriteLine("---------------------------");
+
+            int i = 0;
+            while (i<=20)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
 
             List<IKrediManager> krediler = new List<IKrediManager>(){ihtiyacKrediManager, tasitKrediManager};
             //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
